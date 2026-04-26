@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap");
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
@@ -8,8 +9,6 @@
  * Portfolio design system — premium dark mode with blue→purple accent.
  * All colors use oklch. Define new tokens here, then expose via @theme inline.
  */
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap");
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
