@@ -42,7 +42,7 @@ export function Header() {
             <span className="flex h-8 w-8 items-center justify-center rounded-lg gradient-primary text-sm font-bold text-primary-foreground shadow-[var(--shadow-glow)] transition-transform duration-300 group-hover:scale-110">
               A
             </span>
-            <span className="text-foreground">Ahmed.dev</span>
+            <span className="text-foreground">ALI.YASSER</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">

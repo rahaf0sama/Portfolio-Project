@@ -32,18 +32,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Ahmed Hassan — Frontend Developer & CS Student" },
+      { title: "Ali Yasser Mohammed Ali — IT & CS Student" },
       {
         name: "description",
         content:
-          "Portfolio of Ahmed Hassan, a Computer Science student and frontend developer building fast, accessible web experiences with React.",
+          "Portfolio of Ali Yasser Mohammed Ali, an Information Technology and Computer Science student passionate about software development, embedded systems, and artificial intelligence.",
       },
-      { name: "author", content: "Ahmed Hassan" },
-      { property: "og:title", content: "Ahmed Hassan — Frontend Developer" },
+      { name: "author", content: "Ali Yasser Mohammed Ali" },
+      { property: "og:title", content: "Ali Yasser Mohammed Ali — IT & CS Student" },
       {
         property: "og:description",
         content:
-          "Computer Science student crafting modern, performant web experiences.",
+          "IT and Computer Science student building practical solutions in software, embedded systems, and AI.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

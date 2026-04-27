@@ -4,17 +4,17 @@ import { ArrowRight, Github, Sparkles, Code2, Zap, Layers } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Ahmed Hassan — Frontend Developer & CS Student" },
+      { title: "Ali Yasser Mohammed Ali — IT & CS Student" },
       {
         name: "description",
         content:
-          "Computer Science student building modern, accessible, and high-performance web interfaces with React, TypeScript, and Next.js.",
+          "IT and Computer Science student passionate about software development, embedded systems, and artificial intelligence. Building practical solutions that combine hardware and software.",
       },
-      { property: "og:title", content: "Ahmed Hassan — Frontend Developer" },
+      { property: "og:title", content: "Ali Yasser Mohammed Ali — IT & CS Student" },
       {
         property: "og:description",
         content:
-          "Portfolio showcasing projects, skills, and engineering mindset of a Computer Science student.",
+          "Portfolio showcasing projects in software development, embedded systems, and AI solutions.",
       },
     ],
   }),
@@ -48,18 +48,18 @@ function HomePage() {
             className="mt-6 text-5xl sm:text-7xl font-bold tracking-tight leading-[1.05] animate-fade-up"
             style={{ animationDelay: "80ms" }}
           >
-            Building thoughtful
+            Building practical
             <br />
-            <span className="gradient-text">interfaces</span> for the web.
+            <span className="gradient-text">solutions</span> for real problems.
           </h1>
 
           <p
             className="mt-6 max-w-xl text-lg text-muted-foreground animate-fade-up"
             style={{ animationDelay: "160ms" }}
           >
-            I'm Ahmed — a Computer Science student at the Faculty of Computers
-            and Information, focused on frontend engineering, performance, and
-            clean code.
+            I'm Ali Yasser — an Information Technology and Computer Science student
+            passionate about software development, embedded systems, and artificial
+            intelligence.
           </p>
 
           <div
@@ -95,7 +95,7 @@ function HomePage() {
             className="mt-20 flex flex-wrap gap-2 animate-fade-up"
             style={{ animationDelay: "320ms" }}
           >
-            {["React", "TypeScript", "Next.js", "Tailwind", "Node.js", "Git"].map(
+            {["C++", "JavaScript", "Python", "React", "Node.js", "C#"].map(
               (t) => (
                 <span
                   key={t}

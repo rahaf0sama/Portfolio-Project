@@ -4,17 +4,17 @@ import { GraduationCap, Briefcase, Award } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Ahmed Hassan" },
+      { title: "About — Ali Yasser Mohammed Ali" },
       {
         name: "description",
         content:
-          "About Ahmed Hassan: Computer Science student, frontend developer, with a focus on clean code, performance, and modern UI engineering.",
+          "About Ali Yasser: IT and Computer Science student with expertise in software development, embedded systems, and artificial intelligence.",
       },
-      { property: "og:title", content: "About — Ahmed Hassan" },
+      { property: "og:title", content: "About — Ali Yasser Mohammed Ali" },
       {
         property: "og:description",
         content:
-          "Background, skills, and education of a CS student building modern web interfaces.",
+          "Background, skills, and education of an IT and CS student building practical solutions.",
       },
     ],
   }),
@@ -22,47 +22,48 @@ export const Route = createFileRoute("/about")({
 });
 
 const skills = {
-  Frontend: [
-    { name: "React", level: 92 },
-    { name: "TypeScript", level: 85 },
-    { name: "Next.js", level: 80 },
-    { name: "Tailwind CSS", level: 95 },
-    { name: "HTML / CSS", level: 96 },
+  "Programming Languages": [
+    { name: "C++", level: 85 },
+    { name: "C", level: 80 },
+    { name: "Python", level: 78 },
+    { name: "JavaScript", level: 80 },
+    { name: "C#", level: 75 },
   ],
-  "Backend basics": [
-    { name: "Node.js", level: 70 },
-    { name: "REST APIs", level: 78 },
-    { name: "SQL", level: 65 },
+  "Web Development": [
+    { name: "HTML", level: 90 },
+    { name: "CSS", level: 88 },
+    { name: "Node.js", level: 75 },
+    { name: "ASP.NET", level: 70 },
   ],
-  Tools: [
-    { name: "Git & GitHub", level: 88 },
-    { name: "Figma", level: 75 },
-    { name: "Vite", level: 82 },
-    { name: "VS Code", level: 95 },
+  Concepts: [
+    { name: "Object-Oriented Programming", level: 85 },
+    { name: "Embedded Systems", level: 82 },
+    { name: "Problem Solving", level: 88 },
+    { name: "Data Structures", level: 80 },
   ],
 } as const;
 
 const timeline = [
   {
     icon: GraduationCap,
-    title: "B.Sc. Computer Science",
-    org: "Faculty of Computers and Information",
-    period: "2022 — Present",
-    body: "Coursework in algorithms, data structures, databases, software engineering, and web development.",
+    title: "B.Sc. Information Technology",
+    org: "IT and Computer Science Program",
+    period: "2023 — Present",
+    body: "Coursework in software development, embedded systems, artificial intelligence, data structures, and system design.",
   },
   {
     icon: Briefcase,
-    title: "Frontend Developer Intern",
-    org: "Self-directed & open-source",
-    period: "2024 — Present",
-    body: "Building production-grade React applications, contributing to open source, and shipping client projects.",
+    title: "Solar Tracking System Project",
+    org: "Embedded Systems Portfolio",
+    period: "2024",
+    body: "Designed and built a smart solar panel tracking system using microcontrollers, sensors, and servo motors for optimal energy efficiency.",
   },
   {
     icon: Award,
-    title: "ITI — Frontend Track",
-    org: "Information Technology Institute",
-    period: "2024",
-    body: "Intensive training in modern frontend stack: React, state management, performance, and best practices.",
+    title: "AI & Machine Learning Initiative",
+    org: "Continuous Learning",
+    period: "2025 — Present",
+    body: "Developing expertise in machine learning and AI applications, including predictive modeling and neural networks for real-world problems.",
   },
 ];
 
@@ -77,26 +78,24 @@ function AboutPage() {
           className="mt-3 text-4xl sm:text-5xl font-bold tracking-tight animate-fade-up"
           style={{ animationDelay: "60ms" }}
         >
-          Engineer first, <span className="gradient-text">designer at heart.</span>
+          Developer & Innovator with a <span className="gradient-text">passion for problem-solving.</span>
         </h1>
         <p
           className="mt-6 text-lg leading-relaxed text-muted-foreground animate-fade-up"
           style={{ animationDelay: "120ms" }}
         >
-          I'm a Computer Science student passionate about building products that
-          feel fast, look polished, and stay maintainable. My approach blends
-          strong fundamentals — algorithms, data structures, and clean
-          architecture — with a sharp eye for UI craft. I care about the small
-          details: motion, spacing, accessibility, and the way an interface
-          responds to a user's intent.
+          I'm a passionate IT and Computer Science student with a strong interest in
+          software development, embedded systems, and artificial intelligence. I enjoy
+          building practical solutions that combine both hardware and software to solve
+          real-world problems.
         </p>
         <p
           className="mt-4 text-lg leading-relaxed text-muted-foreground animate-fade-up"
           style={{ animationDelay: "180ms" }}
         >
-          Outside of class, I ship side projects, contribute to open source, and
-          study patterns from teams I admire. My goal: write code that future-me
-          and my teammates will thank me for.
+          I am continuously developing my skills through both academic coursework and
+          personal projects. I seek opportunities to apply my knowledge, collaborate with
+          talented teams, and grow as a developer while creating impactful solutions.
         </p>
       </section>
 
@@ -142,6 +141,39 @@ function AboutPage() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* What I'm Looking For */}
+      <section className="relative mx-auto max-w-4xl px-4 sm:px-6 pt-16">
+        <div className="glass rounded-3xl p-8 md:p-10">
+          <p className="text-sm font-mono text-[var(--accent-purple)]">
+            / looking for
+          </p>
+          <h2 className="mt-3 text-2xl md:text-3xl font-semibold tracking-tight">
+            What I'm Looking For
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
+            I am currently seeking opportunities in software development, web development, or embedded systems where I can apply my skills and gain practical experience. I'm eager to:
+          </p>
+          <ul className="mt-4 space-y-2 text-muted-foreground">
+            <li className="flex items-start gap-3">
+              <span className="mt-1.5 inline-block h-2 w-2 rounded-full bg-[var(--accent-purple)] flex-shrink-0" />
+              <span>Collaborate with experienced teams on meaningful projects</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="mt-1.5 inline-block h-2 w-2 rounded-full bg-[var(--accent-purple)] flex-shrink-0" />
+              <span>Apply and expand my knowledge in software architecture and system design</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="mt-1.5 inline-block h-2 w-2 rounded-full bg-[var(--accent-purple)] flex-shrink-0" />
+              <span>Work on real-world problems in embedded systems or AI applications</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="mt-1.5 inline-block h-2 w-2 rounded-full bg-[var(--accent-purple)] flex-shrink-0" />
+              <span>Contribute to impactful projects that make a difference</span>
+            </li>
+          </ul>
         </div>
       </section>
 

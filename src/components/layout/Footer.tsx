@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="relative mt-32 border-t border-white/5">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-6">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Ahmed Hassan — Crafted with care.
+          © {new Date().getFullYear()} Ali Yasser — Crafted with care.
         </p>
         <div className="flex items-center gap-2">
           <a
@@ -18,7 +18,7 @@ export function Footer() {
             <Github className="h-4 w-4" />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/ali-yasser-mohammed-127116375"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"

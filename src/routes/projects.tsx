@@ -4,17 +4,17 @@ import { ExternalLink, Github } from "lucide-react";
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Projects — Ahmed Hassan" },
+      { title: "Projects — Ali Yasser Mohammed Ali" },
       {
         name: "description",
         content:
-          "Selected frontend projects: production React apps, dashboards, and open-source contributions by Ahmed Hassan.",
+          "Selected projects: embedded systems, AI applications, OOP systems, and web applications by Ali Yasser.",
       },
-      { property: "og:title", content: "Projects — Ahmed Hassan" },
+      { property: "og:title", content: "Projects — Ali Yasser Mohammed Ali" },
       {
         property: "og:description",
         content:
-          "A curated selection of frontend projects showcasing engineering and design craft.",
+          "A curated selection of projects showcasing software development, embedded systems, and AI expertise.",
       },
     ],
   }),
@@ -33,43 +33,44 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Nimbus Analytics",
-    tagline: "Real-time SaaS dashboard",
+    title: "Solar Tracking System",
+    tagline: "Embedded Systems",
     description:
-      "Built a multi-tenant analytics dashboard with virtualized tables, streaming charts, and role-based access. Reduced first paint from 3.4s to 0.9s through code-splitting and edge caching.",
-    stack: ["React", "TypeScript", "Tailwind", "Recharts"],
-    demo: "https://example.com",
-    repo: "https://github.com/",
+      "A smart system that automatically adjusts the position of a solar panel to follow the sun throughout the day, maximizing energy efficiency. Uses microcontrollers, light sensors, and servo motors with real-time data analysis.",
+    stack: ["Embedded C", "Arduino", "Sensors", "Servo Motors"],
     accent: "from-[var(--accent-blue)] to-[var(--accent-purple)]",
   },
   {
-    title: "Verba — AI Notes",
-    tagline: "AI-powered note-taking",
+    title: "Heart Attack Prediction System",
+    tagline: "AI & Machine Learning",
     description:
-      "A minimal note app with semantic search and AI summarization. Designed an offline-first sync layer and a keyboard-first command palette for power users.",
-    stack: ["Next.js", "tRPC", "Postgres", "OpenAI"],
-    demo: "https://example.com",
-    repo: "https://github.com/",
+      "An AI-based system that predicts the likelihood of heart attacks using medical data and machine learning techniques for early detection. Implements data preprocessing, feature engineering, and model training pipelines.",
+    stack: ["Python", "Machine Learning", "Data Analysis", "TensorFlow"],
     accent: "from-[var(--accent-purple)] to-pink-400",
   },
   {
-    title: "Pixel Portfolio Kit",
-    tagline: "Open-source UI kit",
+    title: "Bank Management System",
+    tagline: "C++ / OOP",
     description:
-      "An accessible, themeable component library used by 200+ developers. Includes 40+ components, dark mode, and full TypeScript types.",
-    stack: ["React", "Radix UI", "Tailwind", "Storybook"],
-    repo: "https://github.com/",
+      "A console application that handles account creation, deposits, withdrawals, and transactions using Object-Oriented Programming principles. Demonstrates clean code, encapsulation, and robust data management.",
+    stack: ["C++", "OOP", "File Management", "Data Structures"],
     accent: "from-cyan-400 to-[var(--accent-blue)]",
   },
   {
-    title: "Ledgerly",
-    tagline: "Personal finance tracker",
+    title: "Furniture Company Management System",
+    tagline: "System Design",
     description:
-      "Privacy-focused finance app with category insights and budget alerts. Implemented an offline IndexedDB cache and a custom virtualized transaction list.",
-    stack: ["React", "Vite", "IndexedDB", "Chart.js"],
-    demo: "https://example.com",
-    repo: "https://github.com/",
+      "A comprehensive system for managing products, orders, and company operations to improve workflow and organization. Handles inventory tracking, customer management, and order processing with efficient data structures.",
+    stack: ["C#", "ASP.NET", "Database", "System Design"],
     accent: "from-[var(--accent-blue)] to-emerald-400",
+  },
+  {
+    title: "Interactive Web Game",
+    tagline: "Web Development",
+    description:
+      "A simple and engaging interactive web game focused on user interface design and user experience. Built with vanilla technologies to ensure smooth gameplay and responsive design across all devices.",
+    stack: ["HTML", "CSS", "JavaScript", "Game Logic"],
+    accent: "from-yellow-400 to-orange-400",
   },
 ];
 
@@ -84,14 +85,14 @@ function ProjectsPage() {
           className="mt-3 text-4xl sm:text-5xl font-bold tracking-tight animate-fade-up"
           style={{ animationDelay: "60ms" }}
         >
-          Selected <span className="gradient-text">work.</span>
+          Featured <span className="gradient-text">projects.</span>
         </h1>
         <p
           className="mt-4 max-w-xl text-lg text-muted-foreground animate-fade-up"
           style={{ animationDelay: "120ms" }}
         >
-          A few projects I'm proud of — each solving a real problem with care
-          for performance and detail.
+          A selection of projects I'm proud of — each demonstrating problem-solving
+          skills across software development, embedded systems, and artificial intelligence.
         </p>
       </section>
 

@@ -5,16 +5,16 @@ import { Mail, Github, Linkedin, Send, Check } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Ahmed Hassan" },
+      { title: "Contact — Ali Yasser Mohammed Ali" },
       {
         name: "description",
         content:
-          "Get in touch with Ahmed Hassan for internships, freelance frontend work, or collaboration opportunities.",
+          "Get in touch with Ali Yasser for software development, embedded systems, AI projects, or collaboration opportunities.",
       },
-      { property: "og:title", content: "Contact — Ahmed Hassan" },
+      { property: "og:title", content: "Contact — Ali Yasser Mohammed Ali" },
       {
         property: "og:description",
-        content: "Open to internships, junior roles, and freelance projects.",
+        content: "Open to opportunities in software development, web development, and embedded systems.",
       },
     ],
   }),
@@ -39,14 +39,14 @@ function ContactPage() {
         className="mt-4 max-w-xl text-lg text-muted-foreground animate-fade-up"
         style={{ animationDelay: "120ms" }}
       >
-        Got a role, project, or idea? I read every message and reply within
-        24 hours.
+        Got an opportunity, project, or idea? I'm eager to connect and discuss
+        potential collaborations. Let's build something great together.
       </p>
 
       <div className="mt-12 grid gap-6 md:grid-cols-[1fr_1.2fr]">
         <div className="space-y-3">
           <a
-            href="mailto:hello@example.com"
+            href="mailto:a.fathalbab5666@su.edu.eg"
             className="group flex items-center gap-4 rounded-2xl glass p-5 transition-all hover:bg-white/[0.06] hover:-translate-y-0.5"
           >
             <div className="flex h-11 w-11 items-center justify-center rounded-xl gradient-primary text-primary-foreground">
@@ -57,12 +57,12 @@ function ContactPage() {
                 Email
               </p>
               <p className="text-sm font-medium text-foreground">
-                hello@example.com
+                a.fathalbab5666@su.edu.eg
               </p>
             </div>
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/aliyassermahmoud"
             target="_blank"
             rel="noreferrer"
             className="group flex items-center gap-4 rounded-2xl glass p-5 transition-all hover:bg-white/[0.06] hover:-translate-y-0.5"
@@ -75,12 +75,12 @@ function ContactPage() {
                 GitHub
               </p>
               <p className="text-sm font-medium text-foreground">
-                @ahmed-hassan
+                @aliyassermahmoud
               </p>
             </div>
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/ali-yasser-mohammed-127116375"
             target="_blank"
             rel="noreferrer"
             className="group flex items-center gap-4 rounded-2xl glass p-5 transition-all hover:bg-white/[0.06] hover:-translate-y-0.5"
@@ -93,7 +93,7 @@ function ContactPage() {
                 LinkedIn
               </p>
               <p className="text-sm font-medium text-foreground">
-                /in/ahmed-hassan
+                Ali Yasser Mohammed
               </p>
             </div>
           </a>
